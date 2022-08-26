@@ -1,0 +1,4 @@
+<launch>
+    <rosparam command="load" file="$(find project_pkg)/racing_team.yaml"/>
+    <node pkg="project_pkg" type="racing_team_project.py" name="HELLO" output="screen"></node>
+</launch>
